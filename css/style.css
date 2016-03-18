@@ -1,0 +1,62 @@
+/**
+ * Custom styles for Go Further plugin
+ */
+
+.related-posts {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    border: 1px solid #ededed;
+}
+
+.related-posts a {
+    display: block;
+    margin-bottom: 2em;
+    background: #fff;
+    padding: 2em;
+    text-decoration: none;
+    border: 1px solid #c3c3c3!important;
+}
+
+a.get-related-posts {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 1em 2em;
+}
+
+.get-related-posts:hover,
+.get-related-posts:focus {
+    background: #ededed;
+    box-shadow: none!important;
+}
+
+/* AJAX spinner for slow connections */
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+.ajax-loader {
+    display: none;
+    text-align: center;
+    padding: .7em;
+}
+
+.ajax-loader img {
+    animation: spinner .6s linear infinite;
+}
+
+.related-header {
+    margin-top: 0;
+}
+
+.related-post-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.6em;
+}
+
+.related-featured {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+}
